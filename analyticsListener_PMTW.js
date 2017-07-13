@@ -9,7 +9,9 @@
                     },
                     controller: {
                         doInit: function(b, a, f) {
-                            a = b.get("v.trackerId");
+                            
+                            a = "UA-99319953-2"
+                            //a = b.get("v.trackerId");
                             var k = b.get("v.userId"),
                                 d = b.get("v.networkUserType"),
                                 l = b.get("v.isUserAllowAccessOfSalesforceDataToGA");
