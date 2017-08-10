@@ -1,4 +1,4 @@
-(function() {
+setTimeout(function() {
     return (function() {
         $A.componentService.addComponentClass("markup://forceCommunity:analyticsListener",
             function() {
@@ -92,4 +92,4 @@
             }]
         };
     });
-})();
+},5000)();
